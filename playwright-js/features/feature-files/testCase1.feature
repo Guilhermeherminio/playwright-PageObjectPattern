@@ -1,4 +1,4 @@
-
+@test1
 Feature: Test PlayWright Page
 
     Scenario: Opening PlayWright page and adding items with sucess

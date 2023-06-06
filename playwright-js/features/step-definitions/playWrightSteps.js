@@ -16,3 +16,4 @@ When(/^I fill (.*) in TODO field with success$/, async function (todoField)  {
 Then(/^I check item added$/, async function ()  {
     await expect(this.page.getByTestId('todo-title')).toHaveText(this.todoField);
 });
+
